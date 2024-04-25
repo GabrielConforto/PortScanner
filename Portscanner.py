@@ -10,10 +10,8 @@ def portscan(port):
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         sock.connect((target, port))
         return True
-
     except:
         return False
-
 
 for port in range(startrange, endrange):
     result = portscan(port)
