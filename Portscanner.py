@@ -12,7 +12,8 @@ def portscan(port):
         return True
     except:
         return False
-
+print("Starting scan")
+print("-----------------------")
 for port in range(startrange, endrange):
     result = portscan(port)
     if result:
