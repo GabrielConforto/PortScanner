@@ -1,5 +1,8 @@
 import socket
 
+print("Tool made by: https://github.com/GabrielConforto")
+print("-------------------------------------------------")
+
 target = input('What is the target IP address?')
 startrange = int(input("What is the start of the port range?"))
 endrange = int(input("What is the end of the port range?"))
